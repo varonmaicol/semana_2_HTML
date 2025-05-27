@@ -1,70 +1,69 @@
+# 🏍️ Sitio Web: Mundo de las Motos
 
-## 🌐 Páginas del Sitio
+Este sitio web está dedicado a los amantes de las motocicletas. A través de varias páginas, explora los tipos de motos, su historia, los modelos más llamativos del mundo y una conclusión personal sobre la pasión por conducir sobre dos ruedas.
 
-- **Inicio (`index.html`)**: Bienvenida y navegación.
-- **Tipos de Motos**: Explicación de las principales categorías de motocicletas.
-- **Historia de las Motos**: Breve recorrido histórico de su evolución.
-- **Motos más Llamativas**: Imágenes y datos de modelos destacados.
-- **Conclusión**: Opinión final y reflexión personal.
+## 🌐 Estructura del sitio
 
-## 🎨 Tecnologías Usadas
+El sitio web está compuesto por las siguientes páginas HTML:
 
-- **HTML5**: Estructura semántica y navegación entre páginas.
-- **CSS3**: Estilos externos, fondo con imagen, textos y colores personalizados.
-- **Imágenes**: Implementadas con buenas prácticas y rutas organizadas.
+- `index.html`: Página de inicio con navegación a todo el sitio.
+- `pagina2.html`: Tipos de motos (deportivas, cruiser, enduro, scooter).
+- `pagina3.html`: Historia de las motos desde sus orígenes hasta la actualidad.
+- `pagina4.html`: Las motos más llamativas del mundo, incluyendo marcas como Ducati, Kawasaki, Yamaha, BMW y Harley-Davidson.
+- `pagina5.html`: Conclusión personal sobre por qué las motos son una pasión inigualable.
 
-## ✨ Funcionalidades Destacadas
+## 🎨 Estilos y diseño
 
-- Navegación entre páginas mediante enlaces.
-- Uso de etiquetas semánticas como `<header>`, `<nav>`, `<main>`, `<section>`, `<aside>`, y `<footer>`.
-- Fondo personalizado con imagen de una Ducati.
-- Frase destacada como cita en el `<aside>`.
-- Estilo responsivo básico y formato claro del contenido.
+Se utilizan hojas de estilo CSS externas ubicadas en la carpeta `_css/`:
 
-## 🧠 Autor
+- `estilos.css`, `style1.css`, `Estilosos.css`, `estilosos2.css`
 
-**Maicol Varón**  
-Proyecto desarrollado con fines educativos.  
-Año: 2025
+Los estilos incluyen:
 
-## 📌 Nota
+- Tipografías modernas y legibles.
+- Imágenes con sombras, bordes redondeados y escala al pasar el cursor.
+- Encabezados destacados, fondos con imágenes y navegación responsive.
+- Diseño visual atractivo y organizado para facilitar la lectura.
 
-Este sitio es un proyecto académico que aplica los conceptos vistos en clase de HTML y CSS, incluyendo estructura de carpetas, diseño visual, navegación y uso de imágenes.
+## Tecnologías Utilizadas
 
-# 🛵 Tipos de Motos – Página del Proyecto “Pasión por las Motos”
+- HTML5 (estructura semántica).
+- CSS3 (estilos visuales responsivos).
+- Imágenes optimizadas para web.
+- Buenas prácticas de accesibilidad.
+- Navegación entre páginas.
 
-Esta página forma parte del sitio web "Pasión por las Motos" y está dedicada a mostrar los diferentes tipos de motocicletas con ejemplos reales, descripciones técnicas y elementos visuales.
+## Comentarios css
 
-## 📄 Archivo
+Los estilos CSS aplicados en el sitio proporcionan un diseño moderno y responsivo, con menús de navegación interactivos, fondos animados mediante @keyframes, efectos visuales al pasar el cursor sobre elementos, bloques con sombras y esquinas redondeadas, además de una paleta de colores oscuros y vibrantes que contrastan con el contenido para mejorar la experiencia del usuario. También se emplean imágenes de fondo, bloques destacados con aside, y un diseño centrado en la legibilidad y estética visual.
+## 📁 Organización de carpetas
 
-`pagina2.html` — Página dedicada a explicar los principales tipos de motos.
+```plaintext
+Proyecto/
+│
+├── index.html
+├── _html/
+│   ├── pagina2.html
+│   ├── pagina3.html
+│   ├── pagina4.html
+│   └── pagina5.html
+│
+├── _css/
+│   ├── estilos.css
+│   ├── style1.css
+│   ├── Estilosos.css
+│   └── estilosos2.css
+│
+├── _img/
+│   ├── 390.jpg
+│   ├── Motos Cruiser.jpg
+│   ├── Motos Enduro.jpg
+│   ├── Motos Scooter.jpg
+│   ├── Ducati Panigale V4.jpg
+│   ├── Kawasaki Ninja H2R.jpg
+│   ├── Yamaha YZF-R1.jpg
+│   ├── BMW S1000RR.jpg
+│   ├── Harley-Davidson Street Glide.jpg
+│   └── zh1000.jpg
 
-## 🏍️ Contenido de la Página
-
-La página describe 4 tipos principales de motocicletas:
-
-1. **Motos Deportivas**  
-   - Diseñadas para velocidad y rendimiento.
-   - Ejemplo: KTM 390 Duke.
-
-2. **Motos Cruiser**  
-   - Creadas para paseos largos y cómodos.
-   - Ejemplo: Harley-Davidson.
-
-3. **Motos Enduro**  
-   - Preparadas para caminos off-road y terrenos difíciles.
-
-4. **Motos Scooter**  
-   - Perfectas para ciudad, fáciles de manejar y económicas.
-
-Cada sección incluye una breve descripción, características técnicas, y una imagen representativa.
-
-## 🎨 Estilos Usados
-
-- **CSS Externo:**  
-  Se enlaza con `../_css/estilos.css`.
-
-- **Estilos Adicionales en Línea:**  
-  Las imágenes tienen un estilo personalizado para tamaño fijo:
-  ```html
-  <img src="..." style="width: 400px; height: auto;">
+   
